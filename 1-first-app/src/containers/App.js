@@ -15,13 +15,26 @@ class App extends Component {
     ]
   }
 
+  constructor(props){
+    super(props);
+    console.log('[App.js] constructor()', props);
+  }
+
+  componentWillMount(){
+    console.log('[App.js] componentWillMount()');
+  }
+
+  componentDidMount(){
+    console.log('[App.js] componentDidMount()');
+  }
+
   onToggleHandle = () => {
     let value = !this.state.showItems;
     this.setState({ showItems : value });
   }
 
   render() {
-
+    console.log('[App.js] render()');
     return (
       <div className={classes.App}>
         <Cockpit clicked={this.onToggleHandle} />
