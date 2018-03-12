@@ -5,8 +5,8 @@ import './Person.css';
 const person = (props) => {
     return (
         <div class="Person">
-            <p>Person: {props.name} | Age: {2*props.age}</p>
-            <p>{props.children}</p>
+            <p><label>Person:</label> {props.name} | <label>Age:</label>{props.age}</p>
+            { props.children ? <p>{props.children}</p> : null }
         </div>
     )
 };
