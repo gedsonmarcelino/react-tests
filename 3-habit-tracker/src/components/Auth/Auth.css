@@ -1,0 +1,19 @@
+.Auth{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Auth .Header{
+    padding-bottom: 0;
+}
+
+.Auth .Content{
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    margin: auto 15%;
+}
+
+.Auth .Actions{
+    padding-bottom: 20px;
+}

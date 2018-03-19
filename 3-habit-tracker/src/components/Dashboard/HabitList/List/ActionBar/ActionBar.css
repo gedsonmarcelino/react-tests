@@ -1,0 +1,25 @@
+.Actions{
+    text-align: 'left';
+}
+
+.Select{
+    width: 100%;
+}
+
+.Select input{
+    width: 100% !important;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.Select label{
+    top: -25px;
+}
+
+.Select:hover input{
+    border-bottom: 2px solid black;
+}
+
+.Select .Select-menu-outer{
+    position: absolute !important;
+}

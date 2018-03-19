@@ -1,0 +1,25 @@
+.Items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.root {
+    width: 100%,
+    /* 
+    marginTop: theme.spacing.unit * 3,
+    overflowX: 'auto', 
+    */
+}
+
+.table {
+    min-width: 700px
+}
+
+.Header{
+    margin-bottom: 10px !important;
+}
+
+.ButtonNavigation{
+    padding: 0 !important;
+}
