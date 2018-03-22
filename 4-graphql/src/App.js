@@ -9,7 +9,7 @@ class App extends Component {
       <div className="App">
         <h1>GraphQL</h1>        
         <h2>Pessoas</h2>
-        {/* <Pessoas /> */}
+        <Pessoas />
       </div>
     );
   }
