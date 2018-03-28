@@ -2,13 +2,13 @@ Arguments:
   /usr/local/bin/node /usr/share/yarn/bin/yarn.js start
 
 PATH: 
-  /home/gedson/bin:/home/gedson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/local/bin
+  /home/gedson/bin:/home/gedson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/gedson/.composer/vendor/bin:/home/gedson/.fzf/bin:/home/gedson/.composer/vendor/bin
 
 Yarn version: 
   1.5.1
 
 Node version: 
-  8.6.0
+  8.4.0
 
 Platform: 
   linux x64

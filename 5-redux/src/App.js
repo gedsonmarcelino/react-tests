@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Auth from './components/Auth'
+import Tweet from './components/Tweet'
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         </header>
         <div className="container">
           <Auth />
+          <Tweet />
         </div>
       </div>
     );
