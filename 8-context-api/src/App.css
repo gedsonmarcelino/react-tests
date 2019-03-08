@@ -1,0 +1,9 @@
+.content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.cart {
+	margin-left: 20px;
+}
